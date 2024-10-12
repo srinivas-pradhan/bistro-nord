@@ -1,6 +1,7 @@
-
 import ClientOnly from "@/components/ClientOnly";
-import "./globals.css";
+import CommsBar from "@/components/CommsBar";
+import "../globals.css";
+
 
 export default function RootLayout({
   children,
@@ -9,7 +10,10 @@ export default function RootLayout({
 }>) {
   return (
     <ClientOnly>
+        <CommsBar/>
         {children}
     </ClientOnly>
+
   );
 }
+
