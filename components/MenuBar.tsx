@@ -49,32 +49,32 @@ const MenuBar = () => {
                 <ul className="flex flex-row gap-1">
                     <li>
                         <MenuItem 
-                            onClick={() => {}}
+                            onClick={() => {router.push('/')}}
                             label="Home"
                         />
                     </li>
                     <li>
                         <MenuItem 
-                            onClick={() => {}}
+                            onClick={() => {router.push('/about')}}
                             label="About"
                         />
                     </li>
                     <li>
                         <MenuItem 
-                            onClick={() => {}}
+                            onClick={() => {router.push('/menu')}}
                             label="Menu"
                         />                        
                     </li>
                     <li>
                         <MenuItem 
-                            onClick={() => {}}
+                            onClick={() => {router.push('/Pages')}}
                             label="Pages"
                         />      
                     </li>
                     <li>
                         
                         <MenuItem 
-                            onClick={() => {}}
+                            onClick={() => {router.push('/contact')}}
                             label="Contact"
                         />    
                     </li>
@@ -106,31 +106,31 @@ const MenuBar = () => {
                 <ul className="p-20 space-y-12 text-5xl">
                     <li>
                         <MenuItem 
-                            onClick={() => {}}
+                            onClick={() => {router.push('/')}}
                             label="Home"
                         />
                     </li>
                     <li>
                         <MenuItem 
-                            onClick={() => {}}
+                            onClick={() => {router.push('/about')}}
                             label="About"
                         />
                     </li>
                     <li>
                         <MenuItem 
-                            onClick={() => {}}
+                            onClick={() => {router.push('/menu')}}
                             label="Menu"
                         />
                     </li>
                     <li>
                         <MenuItem 
-                            onClick={() => {}}
+                            onClick={() => {router.push('/pages')}}
                             label="Pages"
                         />
                     </li>
                     <li>
                         <MenuItem 
-                            onClick={() => {}}
+                            onClick={() => {router.push('/contact')}}
                             label="Contact"
                         />
                     </li>
