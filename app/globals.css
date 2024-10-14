@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face { 
+  font-family: "playfair-display-semibold-italic"; 
+  src: url("../public/fonts/PlayfairDisplay-SemiBoldItalic.ttf"); 
+} 
+
+@font-face { 
+  font-family: "dm-sans-medium"; 
+  src: url("../public/fonts/DMSans-Medium.ttf"); 
+} 
