@@ -51,24 +51,28 @@ const MenuBar = () => {
                         <MenuItem 
                             onClick={() => {router.push('/')}}
                             label="Home"
+                            url="/"
                         />
                     </li>
                     <li>
                         <MenuItem 
                             onClick={() => {router.push('/about')}}
                             label="About"
+                            url="/about"
                         />
                     </li>
                     <li>
                         <MenuItem 
                             onClick={() => {router.push('/menu')}}
                             label="Menu"
+                            url="/menu"
                         />                        
                     </li>
                     <li>
                         <MenuItem 
-                            onClick={() => {router.push('/Pages')}}
+                            onClick={() => {router.push('/pages')}}
                             label="Pages"
+                            url="/pages"                          
                         />      
                     </li>
                     <li>

@@ -1,19 +1,30 @@
 'use client';
 import React from "react";
+import { usePathname } from "next/navigation";
 
 interface MenuItemProps {
     onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
     label: string;
+    url?: string;
 }
 
 const MenuItem: React.FC<MenuItemProps> = ({
     onClick,
-    label
+    label,
+    url
 }) => {
+    const pathname = usePathname();
+    var isActive = false;
+
+    if (pathname === url) {
+        isActive = true;
+    }
+
     return (
         <div
             onClick={onClick}
-            className="
+            className={`
+                ${isActive ? "lg:bg-olive-green" : ""}
                 lg:text-black
                 lg:border-none
                 lg:rounded-full
@@ -24,7 +35,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
                 duration-300
                 cursor-pointer
                 text-red-700
-                font-dm-sans-medium"
+                font-dm-sans-medium`}
         >
             {label}
         </div>

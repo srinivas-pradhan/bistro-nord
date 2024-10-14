@@ -17,7 +17,7 @@ const config: Config = {
 
       }),
       colors: {
-
+        'olive-green': '#DBDFD0'
       }
     },
   },
