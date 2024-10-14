@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import MenuItem from "@/components/MenuItem";
+import Button from "@/components/Button";
 
 const MenuBar = () => {
     const router = useRouter();
@@ -24,7 +25,7 @@ const MenuBar = () => {
     })
 
     return ( 
-        <div className="flex justify-between h-28 pl-10 pt-8 w-full text-black bg-white">
+        <div className="flex justify-between h-28 pl-6 lg:pl-10 pt-8 w-full text-black bg-white">
             <div onClick={() => {router.push('/')}}   
             >
                 <ul className="flex flex-row gap-4">
@@ -84,8 +85,11 @@ const MenuBar = () => {
                     </li>
                 </ul>
             </div>
-            <div className="hidden lg:flex pr-28 text-xl pt-4">
-                Book A Table
+            <div className="hidden lg:flex pr-14 xl:pr-28 text-xl">
+                <Button 
+                    onClick={() => {}}
+                    label="Book A Table"
+                />    
             </div>
             <div onClick={handleNav}
             className="lg:hidden flex flex-row"
@@ -107,7 +111,7 @@ const MenuBar = () => {
                         <path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/>
                     </svg>
                 </div>
-                <ul className="p-20 space-y-12 text-5xl">
+                <ul className="p-10 space-y-6 text-3xl sm:p-16 sm:space-y-8 sm:text-4xl">
                     <li>
                         <MenuItem 
                             onClick={() => {router.push('/')}}
@@ -139,6 +143,21 @@ const MenuBar = () => {
                         />
                     </li>
                 </ul>
+                <div className="
+                    fixed 
+                    bottom-0
+                    p-10 
+                    space-y-6 
+                    text-3xl 
+                    sm:p-16 
+                    sm:space-y-8 
+                    sm:text-4xl
+                ">
+                    <Button 
+                        onClick={() => {}}
+                        label="Book A Table"
+                    />
+                </div>
             </div>
         </div>
     );
