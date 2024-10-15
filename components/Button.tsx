@@ -13,7 +13,6 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
     return ( 
         <div className="
-
                 rounded-full
                 text-nowrap
                 transition 
@@ -24,25 +23,22 @@ const Button: React.FC<ButtonProps> = ({
                 duration-300
                 h-12
                 lg:h-10 
-                px-4
+                px-2
                 m-1
                 md:m-2
                 border-solid
                 border-2
                 hover:border-red-700
-                border-olive-green
                 text-red-700
                 font-dm-sans-medium
-               lg:border-rose-950
                lg:hover:border-rose-950
                 lg:text-emerald-950 
                 lg:hover:text-red-700
                 cursor-pointer
         ">
-            <div className={`
-                ${fill ? "lg:bg-red-700" : ""}
+            <div className="
                 mt-1
-            `}>
+            ">
                 {label}
             </div>
         </div>

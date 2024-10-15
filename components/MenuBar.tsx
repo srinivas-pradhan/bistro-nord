@@ -85,7 +85,7 @@ const MenuBar = () => {
                     </li>
                 </ul>
             </div>
-            <div className="hidden lg:flex pr-14 xl:pr-28 text-xl">
+            <div className="hidden lg:flex pr-14 xl:pr-28 text-lg">
                 <Button 
                     onClick={() => {}}
                     label="Book A Table"
@@ -104,7 +104,7 @@ const MenuBar = () => {
                     menuOpen 
                     ?  "fixed md:w-[50%] w-[100%] right-0 top-0 lg:hidden h-screen bg-white p-10 ease-in duration-700"
                     :   "fixed w-56 right-[-100%] top-0 p-10 h-screen ease-in duration-700"
-                }
+                } 
             >
                 <div>
                     <svg onClick={handleNav} xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#b91c1c">
@@ -148,7 +148,7 @@ const MenuBar = () => {
                     bottom-0
                     p-10 
                     space-y-6 
-                    text-3xl 
+                    text-2xl 
                     sm:p-16 
                     sm:space-y-8
                 ">
