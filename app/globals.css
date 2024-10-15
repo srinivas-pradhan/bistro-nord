@@ -11,3 +11,8 @@
   font-family: "dm-sans-medium"; 
   src: url("../public/fonts/DMSans-Medium.ttf"); 
 } 
+
+@font-face { 
+  font-family: "playfair-display-regular"; 
+  src: url("../public/fonts/PlayfairDisplay-Regular.ttf"); 
+} 

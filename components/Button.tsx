@@ -3,14 +3,17 @@
 interface ButtonProps {
     onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
     label: string;
+    fill?: false
 }
 
 const Button: React.FC<ButtonProps> = ({
     onClick,
-    label
+    label,
+    fill
 }) => {
     return ( 
         <div className="
+
                 rounded-full
                 text-nowrap
                 transition 
@@ -24,10 +27,10 @@ const Button: React.FC<ButtonProps> = ({
                 px-4
                 m-1
                 md:m-2
-                lg:border-solid
-                border-dotted
+                border-solid
                 border-2
                 hover:border-red-700
+                border-olive-green
                 text-red-700
                 font-dm-sans-medium
                lg:border-rose-950
@@ -36,7 +39,10 @@ const Button: React.FC<ButtonProps> = ({
                 lg:hover:text-red-700
                 cursor-pointer
         ">
-            <div className="mt-1">
+            <div className={`
+                ${fill ? "lg:bg-red-700" : ""}
+                mt-1
+            `}>
                 {label}
             </div>
         </div>

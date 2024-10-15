@@ -11,16 +11,19 @@ const config: Config = {
     fontFamily: {
       'playfair-display-semibold-italic': ["playfair-display-semibold-italic"],
       'dm-sans-medium': ["dm-sans-medium"],
+      'playfair-display-regular': ["playfair-display-regular"],
     },
     extend: {
       backgroundImage: (theme) => ({
-
+        'hero-image': "url('../public/images/hero.svg')",
       }),
       colors: {
         'olive-green': '#DBDFD0'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio')
+  ],
 }
 export default config

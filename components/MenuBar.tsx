@@ -150,8 +150,7 @@ const MenuBar = () => {
                     space-y-6 
                     text-3xl 
                     sm:p-16 
-                    sm:space-y-8 
-                    sm:text-4xl
+                    sm:space-y-8
                 ">
                     <Button 
                         onClick={() => {}}
