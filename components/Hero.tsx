@@ -1,4 +1,5 @@
 'use client';
+import LargeButton from "@/components/LargeButton";
 
 const Hero = () => {
     return (
@@ -36,19 +37,48 @@ const Hero = () => {
                     <p>your taste</p>
                 </div>
                 <div className="
-                hidden 
-                lg:flex
-                lg:flex-col
-                w-[550px]
-                text-xl
-                mt-14
-                ml-[38%]
-                items-center
-                justify-center
-                font-dm-sans-medium
+                    hidden 
+                    lg:flex
+                    lg:flex-col
+                    w-[550px]
+                    text-xl
+                    mt-14
+                    ml-[38%]
+                    items-center
+                    justify-center
+                    font-dm-sans-medium
                 ">
                     <p>Discover delectable cuisine and unforgettable moments</p>
                     <p>in our welcoming, culinary haven.</p>
+                </div>
+                <div className="
+                    hidden 
+                    lg:flex
+                    lg:flex-col
+                    w-[550px]
+                    text-xl
+                    mt-14
+                    ml-[38%]
+                    items-center
+                    justify-center
+                    font-dm-sans-medium
+                ">
+                    <ul className="flex flex-row gap-12">
+                        <li>
+                            <LargeButton
+                                onClick={() => {}}
+                                label="Book A Table"
+                                fill={true}
+                            />
+                        </li>
+                        <li>
+                            <LargeButton
+                                onClick={() => {}}
+                                label="Explore Menu"
+                            />
+                        </li>
+                    </ul>
+
                 </div>
             </div>
             

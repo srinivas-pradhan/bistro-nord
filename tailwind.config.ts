@@ -18,7 +18,8 @@ const config: Config = {
         'hero-image': "url('../public/images/hero.svg')",
       }),
       colors: {
-        'olive-green': '#DBDFD0'
+        'olive-green': '#DBDFD0',
+        'burgundy': '#AD343E',
       }
     },
   },
