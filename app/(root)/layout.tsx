@@ -4,6 +4,7 @@ import MenuBar from "@/components/MenuBar";
 import Hero from "@/components/Hero";
 import MobileSubHero from "@/components/MobileSubHero";
 import BrowseMenu from "@/components/BrowseMenu";
+import MoreAboutUs from "@/components/MoreAboutUs";
 
 import "../globals.css";
 
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Hero/>
         <MobileSubHero/>
         <BrowseMenu/>
+        <MoreAboutUs/>
         {children}
     </ClientOnly>
 

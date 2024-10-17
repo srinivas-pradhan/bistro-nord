@@ -20,6 +20,7 @@ const config: Config = {
       colors: {
         'olive-green': '#DBDFD0',
         'burgundy': '#AD343E',
+        'dark-white': '#F9F9F7'
       }
     },
   },

@@ -6,7 +6,7 @@ const BrowseMenu = () => {
             flex
             justify-center
         ">
-            <div className="pt-24">
+            <div className="pt-24 pb-10">
                 <ul>
                     <li className="                    
                         flex
