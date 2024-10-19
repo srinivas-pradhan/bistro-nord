@@ -47,7 +47,8 @@ const MoreAboutUs = () => {
                         </div>
                         <div className="
                             -mt-44
-                            ml-[35%]
+                            ml-[10%]
+                            md:ml-[35%]
                             box 
                             rounded-2xl
                             flex
@@ -58,7 +59,10 @@ const MoreAboutUs = () => {
                             text-white
                         ">
 
-                            <ul className="space-y-4 ml-3 mr-3">
+                            <ul className="
+                                space-y-4 
+                                ml-3 
+                                mr-3">
                                 <li className="
                                     font-dm-sans-medium
                                     lg:text-xl
