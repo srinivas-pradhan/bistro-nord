@@ -52,12 +52,12 @@ const MoreAboutUs = () => {
                             flex
                             justify-center
                             items-center
-                            h-[50%]
+                            h-[65%]
                             bg-dark-chalk
                             text-white
                         ">
 
-                            <ul className="space-y-4">
+                            <ul className="space-y-4 ml-3 mr-3">
                                 <li className="
                                     font-dm-sans-medium
                                     lg:text-xl
