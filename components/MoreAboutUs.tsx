@@ -1,4 +1,5 @@
 'use client';
+import Button from "@/components/Button";
 
 const MoreAboutUs = () => {
     return (  
@@ -16,11 +17,11 @@ const MoreAboutUs = () => {
                 grid
                 grid-cols-1
                 lg:grid-cols-2
-                gap-20
+                gap-10
                 m-12
             ">
                 <li className="
-                    h-3/4
+                    h-[90%]
                     w-full
                     text-black
 
@@ -106,21 +107,56 @@ const MoreAboutUs = () => {
                 </li>
                 <li className="
                     h-[400px]
-                    w-[500px]
+                    w-[520px]
                     pt-4
                     pl-8
                 ">
                     <div className="
                         hidden
                         lg:flex
+                        flex-row
                         h-[100%]
                         w-[90%]
-                        bg-black
-                        text-white
+
                     ">
-                        ITEMS1
+                        <ul className="space-y-6">
+                            <li className="
+                                text-black
+                                font-playfair-display-regular
+                                text-5xl
+                            ">
+                                We provide healthy food for your family.
+                            </li>
+                            <li className="
+                                text-black
+                                font-playfair-display-regular
+                                text-lg
+                                text-wrap
+                                justify-start
+                            ">
+                                Our story began with a vision to create a unique dining experience that merges fine dining, exceptional service, and a vibrant ambiance. Rooted in city's rich culinary culture, we aim to honor our local roots while infusing a global palate.
+                            </li>
+                            <li className="
+                                text-black
+                                font-playfair-display-regular
+                                text-base
+                                text-wrap
+                                justify-start
+                            ">
+                                At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.
+                            </li>      
+                            <li className="
+                                flex pr-14 text-lg font-playfair-display-regular
+                            ">
+                                <Button 
+                                    onClick={() => {}}
+                                    label="More About Us"
+                                />    
+                            </li>                  
+                        </ul>
                     </div>
                 </li>
+                
             </ul>
         </div>
     );
