@@ -16,11 +16,13 @@ const config: Config = {
     extend: {
       backgroundImage: (theme) => ({
         'hero-image': "url('../public/images/hero.svg')",
+        'aboutus-image': "url('../public/images/aboutus.svg')",
       }),
       colors: {
         'olive-green': '#DBDFD0',
         'burgundy': '#AD343E',
-        'dark-white': '#F9F9F7'
+        'dark-white': '#F9F9F7',
+        'dark-chalk': '#474747'
       }
     },
   },
