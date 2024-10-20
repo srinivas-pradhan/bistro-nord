@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import MobileSubHero from "@/components/MobileSubHero";
 import BrowseMenu from "@/components/BrowseMenu";
 import MoreAboutUs from "@/components/MoreAboutUs";
+import Events from "@/components/Events";
 
 import "../globals.css";
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <MobileSubHero/>
         <BrowseMenu/>
         <MoreAboutUs/>
+        <Events/>
         {children}
     </ClientOnly>
 
