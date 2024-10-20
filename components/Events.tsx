@@ -15,11 +15,11 @@ const Events = () => {
                 flex
                 items-start
                 justify-start
-                lg:w-[55%]
-                md:w-[45%]
-                w-[90%]
+                lg:w-[35%]
+                md:w-[75%]
+                w-[100%]
                 h-20
-                mt-20
+                mt-2
                 pl-16
                 font-playfair-display-regular
                 text-4xl
@@ -31,8 +31,10 @@ const Events = () => {
                 items-center
                 justify-center
                 -ml-10
+                md:-ml-32
+                lg:-ml-4
                 mr-8
-                pt-36
+                pt-24
                 md:pl-12
             ">
                 <ul className=" 
