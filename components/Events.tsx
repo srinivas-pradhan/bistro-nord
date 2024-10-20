@@ -13,7 +13,9 @@ const Events = () => {
         ">
             <div className="
                 flex
-                lg:w-[35%]
+                items-start
+                justify-start
+                lg:w-[55%]
                 md:w-[45%]
                 w-[90%]
                 h-20
@@ -26,10 +28,12 @@ const Events = () => {
             </div>
             <div className="
                 flex
-                items-stretch
-                justify-start
+                items-center
+                justify-center
+                -ml-10
+                mr-8
                 pt-36
-                pl-12
+                md:pl-12
             ">
                 <ul className=" 
                     flex-row
@@ -38,23 +42,21 @@ const Events = () => {
                     lg:grid-cols-4
                     gap-20
                     pl-20
-                    md:pl-20
+                    md:pl-10
                     pr-12                    
                 ">
                     <li className="
                         h-48
                         w-32
                         md:w-36
-                        lg:w-64
+                        lg:w-56
+                        xl:w-64
                         lg:h-80
                         xl:h-96
                         flex
                         justify-center 
                         items-center
                         rounded-2xl
-                        border-solid
-                        border-2
-                        border-olive-green
                         cursor-pointer
                         transition 
                         ease-in-out 
@@ -72,19 +74,35 @@ const Events = () => {
                             ">
                                 <img 
                                     src="images/Events/catering.svg" 
-                                    alt="Girl in a jacket" 
+                                    alt="Catering" 
                                     >
                                 </img>
                             </li>
-                            <li>b</li>
-                            <li>c</li>
+                            <li className="
+                                pl-3
+                                font-dm-sans-medium
+                                font-bold
+                                text-xl
+                            ">
+                                Catering
+                            </li>
+                            <li className="
+                                hidden
+                                lg:flex
+                                pl-3
+                                font-dm-sans-medium
+
+                            ">
+                                In the new era of technology we look in the future with certainty for life.
+                            </li>
                         </ul>
                     </li>
                     <li className="
                         h-48
                         w-32
                         md:w-36
-                        lg:w-64
+                        lg:w-56
+                        xl:w-64
                         lg:h-80
                         xl:h-96
                         flex
@@ -99,13 +117,44 @@ const Events = () => {
                         hover:scale-110
                         duration-300
                     ">
-                        2
+                        <ul className="
+                            space-y-6
+                        ">
+                            <li className="
+                                rounded-2xl
+                                -mt-5
+                            ">
+                                <img 
+                                    src="images/Events/birthdays.svg" 
+                                    alt="Catering" 
+                                    >
+                                </img>
+                            </li>
+                            <li className="
+                                pl-3
+                                font-dm-sans-medium
+                                font-bold
+                                text-xl
+                            ">
+                                Birthdays
+                            </li>
+                            <li className="
+                                hidden
+                                lg:flex
+                                pl-3
+                                font-dm-sans-medium
+
+                            ">
+                                In the new era of technology we look in the future with certainty for life.
+                            </li>
+                        </ul>
                     </li>
                     <li className="
                         h-48
                         w-32
                         md:w-36
-                        lg:w-64
+                        lg:w-56
+                        xl:w-64
                         lg:h-80
                         xl:h-96
                         flex
@@ -120,13 +169,44 @@ const Events = () => {
                         hover:scale-110
                         duration-300
                     ">
-                        3
+                        <ul className="
+                            space-y-6
+                        ">
+                            <li className="
+                                rounded-2xl
+                                -mt-5
+                            ">
+                                <img
+                                    src="images/Events/weddings.svg" 
+                                    alt="Catering" 
+                                    >
+                                </img>
+                            </li>
+                            <li className="
+                                pl-3
+                                font-dm-sans-medium
+                                font-bold
+                                text-xl
+                            ">
+                                Weddings
+                            </li>
+                            <li className="
+                                hidden
+                                lg:flex
+                                pl-3
+                                font-dm-sans-medium
+
+                            ">
+                                In the new era of technology we look in the future with certainty for life.
+                            </li>
+                        </ul>
                     </li>
                     <li className="
                         h-48
                         w-32
                         md:w-36
-                        lg:w-64
+                        lg:w-56
+                        xl:w-64
                         lg:h-80
                         xl:h-96
                         flex
@@ -141,7 +221,37 @@ const Events = () => {
                         hover:scale-110
                         duration-300
                     ">
-                        4
+                        <ul className="
+                            space-y-6
+                        ">
+                            <li className="
+                                rounded-2xl
+                                -mt-5
+                            ">
+                                <img 
+                                    src="images/Events/events.svg" 
+                                    alt="Catering" 
+                                    >
+                                </img>
+                            </li>
+                            <li className="
+                                pl-3
+                                font-dm-sans-medium
+                                font-bold
+                                text-xl
+                            ">
+                                Events
+                            </li>
+                            <li className="
+                                hidden
+                                lg:flex
+                                pl-3
+                                font-dm-sans-medium
+
+                            ">
+                                In the new era of technology we look in the future with certainty for life.
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
