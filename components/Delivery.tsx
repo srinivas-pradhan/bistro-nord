@@ -60,7 +60,7 @@ const Delivery = () => {
                             hidden
                             lg:flex 
                             rounded-2xl
-                            h-32
+                            h-44
                             w-44
                         ">
                             <img className=""
