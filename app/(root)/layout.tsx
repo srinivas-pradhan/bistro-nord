@@ -7,6 +7,7 @@ import BrowseMenu from "@/components/BrowseMenu";
 import MoreAboutUs from "@/components/MoreAboutUs";
 import Events from "@/components/Events";
 import Delivery from "@/components/Delivery";
+import Customers from "@/components/Customers";
 
 import "../globals.css";
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         <MoreAboutUs/>
         <Events/>
         <Delivery/>
+        <Customers/>
         {children}
     </ClientOnly>
 
