@@ -8,6 +8,7 @@ import MoreAboutUs from "@/components/MoreAboutUs";
 import Events from "@/components/Events";
 import Delivery from "@/components/Delivery";
 import Customers from "@/components/Customers";
+import Footer from "@/components/Footer";
 
 import "../globals.css";
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         <Events/>
         <Delivery/>
         <Customers/>
+        <Footer/>
         {children}
     </ClientOnly>
 

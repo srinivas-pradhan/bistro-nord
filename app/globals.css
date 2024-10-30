@@ -16,3 +16,18 @@
   font-family: "playfair-display-regular"; 
   src: url("../public/fonts/PlayfairDisplay-Regular.ttf"); 
 } 
+
+@font-face { 
+  font-family: "dm-sans-thin"; 
+  src: url("../public/fonts/DMSans-Thin.ttf"); 
+} 
+
+@font-face { 
+  font-family: "dm-sans-regular"; 
+  src: url("../public/fonts/DMSans-Regular.ttf"); 
+} 
+
+@font-face { 
+  font-family: "dm-sans-bold"; 
+  src: url("../public/fonts/DMSans-Bold.ttf"); 
+} 

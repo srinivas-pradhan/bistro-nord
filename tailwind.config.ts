@@ -12,6 +12,9 @@ const config: Config = {
       'playfair-display-semibold-italic': ["playfair-display-semibold-italic"],
       'dm-sans-medium': ["dm-sans-medium"],
       'playfair-display-regular': ["playfair-display-regular"],
+      'dm-sans-regular': ["dm-sans-regular"],
+      'dm-sans-thin': ["dm-sans-thin"],
+      'dm-sans-bold': ["dm-sans-bold"],
     },
     extend: {
       backgroundImage: (theme) => ({
@@ -22,7 +25,7 @@ const config: Config = {
         'olive-green': '#DBDFD0',
         'burgundy': '#AD343E',
         'dark-white': '#F9F9F7',
-        'dark-chalk': '#474747'
+        'dark-chalk': '#474747',
       }
     },
   },
