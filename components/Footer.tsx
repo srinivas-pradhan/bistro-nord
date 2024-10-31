@@ -4,15 +4,14 @@ const Footer = () => {
     return (
         <div className="
             bg-dark-chalk
-            h-[550px]
+            lg:h-[550px]
+            h-[400px]
             w-full
         ">
             <div className="
                 flex 
                 flex-row
-                pl-12
-                pt-36
-                lg:p-24 
+                p-6 
                 justify-between
                 ">
                 <div className="space-y-10">
@@ -37,9 +36,12 @@ const Footer = () => {
                     </div>
                     <div className="
                         text-white
-                        w-[55%]
+                        w-[75%]
+                        sm:w-[65%]
                         md:w-[45%]
                         lg:w-[35%]
+                        md:text-base
+                        text-sm
                     ">
                     In the new era of technology we look a in the future with certainty and pride to for our company and our future.
                     </div>
@@ -69,10 +71,11 @@ const Footer = () => {
                 </div>
                 <div className="
                     hidden
-                    lg:flex 
+                    xl:flex 
                     flex-col
                     mt-5
-                    -ml-[60%]
+                    lg:-ml-[50%]
+                    -ml-[100%]
                     text-white
                     space-y-10                   
                 ">
@@ -95,11 +98,10 @@ const Footer = () => {
                 </div>
                 <div className="
                     hidden
-                    lg:flex 
+                    xl:flex 
                     flex-col
                     mt-5
-                    xl:-ml-[15%]
-                    ml-[10%]
+                    -ml-[10%]
                     text-white
                     space-y-10                   
                 ">
@@ -125,7 +127,7 @@ const Footer = () => {
                         font-dm-sans-bold
                         xl:-ml-[20%]
                         lg:-ml-[10%]
-                        -ml-[60%]
+                        -ml-[20%]
                         hidden
                         md:flex 
                         flex-col
@@ -138,20 +140,19 @@ const Footer = () => {
                     <div className="
                         md:grid
                         grid-cols-2
-                        grid-flow-dense
-                        space-y-1                        
                         mt-10
                         hidden
-                        xl:-ml-[40%]
-                        lg:-ml-[30%]
-                        -ml-[100%]
+
+                        xl:-ml-[20%]
+                        lg:-ml-[10%]
+                        -ml-[50%]
                     ">
-                        <img 
+                        <img className="hidden lg:flex"
                             src="images/Footer/Egg.svg" 
                             alt="Egg" 
                         >
                         </img>
-                        <img 
+                        <img className="hidden lg:flex"
                             src="images/Footer/Fries.svg" 
                             alt="Fries" 
                         >
